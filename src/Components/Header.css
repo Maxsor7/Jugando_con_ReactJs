@@ -1,0 +1,39 @@
+.header-container {
+    display: flex;
+    justify-content: space-between; /* Añade espacio entre los elementos a los extremos */
+    padding: 10px; /* Añade espacio interno al contenedor principal */
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+    height: 100px;
+
+}
+
+.left-section {
+    background-color: #fff;
+}
+
+.center-section {
+    background-color: #fff;
+}
+
+.right-section {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.left-content {
+    margin-left: 10px; /* Añade espacio a la izquierda del contenido izquierdo */
+}
+
+.small-text {
+    font-size: 12px;
+}
+
+.right-content {
+    margin-right: 10px; /* Añade espacio a la derecha del contenido derecho */
+    width: 100px;
+}

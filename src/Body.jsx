@@ -1,16 +1,20 @@
 import React from "react";
-import Header from "./Header";
-import Main2 from "./Main2";
-import Footer from "./Footer";
+import Header from "./Components/Header";
+import Main from "./Components/Main";
+import Footer from "./Components/Footer";
 
-function Body(){
-    return(
-        <>          
-            <Header></Header>
-            <Main2></Main2>
-            <Footer></Footer>
-        </>
+
+
+function Body() {
+
+
+    return (
+      <>
+        <Header/>
+        <Main/>
+        <Footer/>
+      </>
     )
-}
-
-export default Body
+  }
+  
+  export default Body
